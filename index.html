@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhinav's Website</title>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="logo">
+      Abhinav
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section id="home" class="home-section">
+  <div class="container">
+    <div class="profile-pic">
+        <img src="Abhinav.jpg" alt="Profile">
+    </div>
+    <div class="intro-text">
+      <h1>Web Developer</h1>
+      <p>Hi, I'm Abhinav from IIT Kharagpur.</p>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about-section">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nihil labore fuga veritatis, iusto ratione architecto dicta sapiente illo error repellat cupiditate unde quos modi nulla harum, doloribus tempora dignissimos?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, aliquam necessitatibus, deserunt suscipit eligendi odit, quo asperiores iure error excepturi dolores. Earum tempore aperiam aliquid quis quam nisi! Repudiandae, ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum culpa fugit inventore sapiente nam facere, doloribus ullam optio voluptatem eum? Aspernatur, cupiditate? Distinctio dolor pariatur exercitationem natus necessitatibus obcaecati omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dicta, laboriosam sunt quasi ex illum obcaecati, eaque soluta eum eos ducimus tempore officiis nostrum recusandae temporibus eligendi excepturi architecto blanditiis.</p>
+  </div>
+</section>
+
+<section id="portfolio" class="portfolio-section">
+  <div class="container">
+    <h2>Portfolio</h2>
+    <div class="portfolio-box">
+      <h3>Web Developer</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, molestiae? Omnis repudiandae enim porro, ut corrupti quo rerum? Repellat, velit. Suscipit fuga quaerat ad beatae nulla a, magnam qui sequi.</p>
+    </div>
+    <div class="portfolio-box">
+      <h3>Junior Associate at International Relations Cell</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vitae dolore facere velit temporibus aliquam enim dolores voluptate, eius assumenda, incidunt, officia debitis accusamus quae dicta expedita quod! Ipsum, quibusdam?</p>
+    </div>
+    <div class="portfolio-box">
+      <h3>Associate Member at Public Policy and Governance Society</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit dolore tempore culpa in aut fugiat molestiae reiciendis, dignissimos quod temporibus non quis soluta vero id, doloremque voluptate nobis doloribus repellendus.</p>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="services-section">
+  <div class="container">
+    <h2>Services</h2>
+    <div class="service-box">
+      <h3>Front End Developer</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur omnis id iusto placeat totam porro, velit error aliquam sapiente inventore earum numquam aperiam aliquid magni sed repudiandae, quis eligendi praesentium!</p>
+    </div>
+    <div class="service-box">
+      <h3>Video Editing</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo illum laboriosam quae eaque aliquid consequatur reiciendis, commodi odit hic nesciunt ullam ex in possimus ea, ad praesentium, odio consequuntur vitae.</p>
+    </div>
+    <div class="service-box">
+      <h3>Logo Designing</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident possimus consequuntur eos? Adipisci sit libero enim, odio error quibusdam dolor sequi dicta repellendus expedita placeat minus aspernatur mollitia ex ut.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h2>Contact</h2>
+    <form action="#" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name">
+      <input type="email" name="email" placeholder="Your Email">
+      <textarea name="message" placeholder="Your Message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2024 Abhinav</p>
+  </div>
+</footer>
+
+</body>
+</html>
+
+
+
+<style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('IITkharagpur.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: hsla(0, 9%, 2%, 0.5);
+    padding: 2vh 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 3vh;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-left: 3vh;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #999;
+  }
+  
+  .home-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .profile-pic img {
+    width: 27vh;
+    height: 27vh;
+    border-radius: 50%;
+    border: 1vh solid #f6ffc3;
+    box-shadow: 0 0 2vh rgba(0, 0, 0, 0.3);
+    transition: transform 1s ease;
+    animation: fadeIn 1s ease;
+  }
+  
+  .profile-pic img:hover {
+    transform: scale(1.1);
+  }
+  
+  .intro-text {
+    color: white;
+    margin-top: 3vh;
+    padding: auto;
+  }
+  
+  .about-section,
+  .portfolio-section,
+  .services-section,
+  .contact-section {
+    background-color: rgba(131, 235, 247, 0.715);
+    padding: 5vh 0vh;
+    margin-top: 2vh;
+    border-radius: 2vh;
+    transition: transform 0.3s ease;
+  }
+  
+  .about-section:hover,
+  .portfolio-section:hover,
+  .services-section:hover,
+  .contact-section:hover {
+    transform: translateY(-10px);
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: calc(100% - 22px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form textarea {
+    height: 100px;
+  }
+  
+  .contact-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #555;
+  }
+  
+  .footer{
+    background-color: rgba(212, 30, 30, 1);
+    color: white;
+    text-align: center;
+    height: 5vh;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+</style>
